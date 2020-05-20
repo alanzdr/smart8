@@ -1,0 +1,47 @@
+#messages-input {
+  /* height: 200px; */
+  padding: 60px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#messages-input input{
+  width: calc(100% - 48px);
+  height: 48px;
+  background: #7B1FA2;
+  border-radius: 32px;
+  border: none;
+  padding: 0 24px;
+  font-size: 16px;
+  color: #fff;
+}
+
+#messages-input input::placeholder {
+  color: #fff;
+  opacity: .5;
+}
+
+#messages-input button{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  background: #B0196C;
+  transition: background .5s ease;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+#messages-input button:hover{
+  background: #7c0041;
+}
+
+#messages-input button img{
+  width: 24px;
+  height: 24px;
+  transform: translateX(-1px);
+}

@@ -1,0 +1,45 @@
+#content-logo {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-logo svg{
+  width: 73.1px;
+  height: 73.1px;
+}
+
+#content-logo svg rect{
+  fill:#7b1fa2;
+}
+
+#content-logo svg circle{
+  fill:#fff;
+}
+
+#content-logo svg g{
+  isolation:isolate;
+}
+
+#content-logo svg path{
+  fill:#7b1fa2;
+}
+
+#content-logo .top-eye{
+  transition: height .3s ease;
+}
+
+#content-logo .bot-eye{
+  transition: height .3s ease, transform .3s ease;
+}
+
+#content-logo svg:hover .top-eye {
+  height: 18.5px;
+}
+
+#content-logo svg:hover .bot-eye {
+  transform: translateY(-18px);
+  height: 18.5px;
+}
