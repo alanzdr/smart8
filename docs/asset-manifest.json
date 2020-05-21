@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be5a0854.chunk.css",
+    "main.js": "/static/js/main.f0dd5b84.chunk.js",
+    "main.js.map": "/static/js/main.f0dd5b84.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ca79223.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ca79223.js.map",
+    "static/js/2.404e5a14.chunk.js": "/static/js/2.404e5a14.chunk.js",
+    "static/js/2.404e5a14.chunk.js.map": "/static/js/2.404e5a14.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fe3dfb51a7fbcf816bfa54188448ce7a.js": "/precache-manifest.fe3dfb51a7fbcf816bfa54188448ce7a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.be5a0854.chunk.css.map": "/static/css/main.be5a0854.chunk.css.map",
+    "static/js/2.404e5a14.chunk.js.LICENSE.txt": "/static/js/2.404e5a14.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/GothamBook.b54724f5.ttf",
+    "static/media/send-icon.svg": "/static/media/send-icon.544a5860.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ca79223.js",
+    "static/js/2.404e5a14.chunk.js",
+    "static/css/main.be5a0854.chunk.css",
+    "static/js/main.f0dd5b84.chunk.js"
+  ]
+}
