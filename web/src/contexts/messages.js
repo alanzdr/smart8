@@ -6,6 +6,8 @@ import React, {
 
 import api from '../services/api'
 
+import { getRamdomMessage } from '../utils/message'
+
 const INITIAL_STATE = {
   messages: []
 }
@@ -15,8 +17,14 @@ export const MessageContext = createContext(INITIAL_STATE)
 // eslint-disable-next-line react/prop-types
 export const MessageProvider = ({ children }) => {
   const [messages, setMessages] = useState([])
+  const [loading, setLoading] = useState(false)
   return (
-    <MessageContext.Provider value={{ messages, setMessages }}>
+    <MessageContext.Provider value={{
+      messages,
+      setMessages,
+      loading,
+      setLoading
+    }}>
       {children}
     </MessageContext.Provider>
   )
@@ -25,9 +33,10 @@ export const MessageProvider = ({ children }) => {
 export const useMessage = () => {
   const {
     messages,
-    setMessages
+    setMessages,
+    loading,
+    setLoading
   } = useContext(MessageContext)
-  const [loading, setLoading] = useState(false)
 
   const GenerateRandomKey = () => {
     return Math.random().toString(36).substring(7)
@@ -38,7 +47,8 @@ export const useMessage = () => {
       params: { text }
     })
 
-    const botMessage = result.data.displayName
+    const botResult = result.data.displayName
+    const botMessage = getRamdomMessage(botResult)
 
     const exempleMessage = {
       key: GenerateRandomKey(),

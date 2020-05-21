@@ -5,7 +5,7 @@ import { useMessage } from '../../contexts/messages'
 import './styles.css'
 
 export default function Messages () {
-  const { messages } = useMessage()
+  const { messages, loading } = useMessage()
   return (
     <div id='messages-container'>
       {messages.map(message => (
@@ -16,6 +16,13 @@ export default function Messages () {
           <p>{message.text}</p>
         </div>
       ))}
+      {loading ? (
+        <div
+          className={'message bot'}
+        >
+          <p>...</p>
+        </div>
+      ) : null}
     </div>
   )
 }

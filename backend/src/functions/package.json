@@ -1,0 +1,7 @@
+{
+  "name": "question_classification_backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/automl": "^2.0.0"
+  }
+}

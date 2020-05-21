@@ -1,6 +1,5 @@
 #messages-input {
-  /* height: 200px; */
-  padding: 60px 0;
+  padding: 40px 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -44,4 +43,11 @@
   width: 24px;
   height: 24px;
   transform: translateX(-1px);
+}
+
+
+@media (max-width: 1000px) {
+  #messages-input {
+    padding-bottom: 24px;
+  }
 }
