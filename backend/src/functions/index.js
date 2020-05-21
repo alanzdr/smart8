@@ -11,6 +11,7 @@ const location = 'us-central1'
 const modelId = 'TCN7757727435075878912'
 
 exports.main = async (req, res) => {
+  res.set('Access-Control-Allow-Origin', '*');
   const { text } = req.query;
   try {
     const client = new PredictionServiceClient();

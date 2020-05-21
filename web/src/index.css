@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
 body {
   font: 400 16px 'Gotham', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +33,6 @@ input, button {
   flex-direction: column;
   width: 480px;
   max-width: 90%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
 }
