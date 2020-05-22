@@ -1,5 +1,6 @@
 import React from 'react'
 
+import SideView from './components/SideView'
 import Logo from './components/Logo'
 import Messages from './components/Messages'
 import Input from './components/Input'
@@ -13,9 +14,12 @@ export default function App () {
   return (
     <MessageProvider>
       <div id="site-container">
-        <Logo />
-        <Messages />
-        <Input />
+        <SideView />
+        <div className="chat-container">
+          <Logo />
+          <Messages />
+          <Input />
+        </div>
       </div>
     </MessageProvider>
   )

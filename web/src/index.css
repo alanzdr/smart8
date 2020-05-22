@@ -30,9 +30,18 @@ input, button {
 
 #site-container {
   display: flex;
-  flex-direction: column;
-  width: 480px;
+  flex-direction: row;
+  justify-content: center;
   max-width: 90%;
   height: 100%;
   margin: 0 auto;
+}
+
+#site-container .chat-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 480px;
+  height: 100%;
+  margin: 0 20px;
 }

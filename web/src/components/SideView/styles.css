@@ -1,0 +1,107 @@
+#sideview-container {
+  width: 400px;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 20px;
+  padding: 40px 0;
+  padding: 24px;
+}
+
+#sideview-container .mobile-button{
+  display: none;   
+}
+
+#sideview-container .box{
+  width: 100%;
+  height: 100%;
+  background: #333;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+#sideview-container .box .close-button{
+  display: none;   
+}
+
+#sideview-container .text h1{
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+#sideview-container .text p{
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 24px;
+}
+
+#sideview-container .social-links{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+#sideview-container .social-links img{
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  transition: opacity .2s;
+}
+
+#sideview-container .social-links img:hover{
+  opacity: .7;
+}
+
+@media (max-width: 1000px) {
+  #sideview-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 99;
+    margin: 0;
+    padding: 40px 32px;
+  }
+  #sideview-container .mobile-button{
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 54px;
+    width: 40px;
+    height: 40px;
+    pointer-events: all;
+    background: none;
+    border: none;
+    z-index: 99;
+  }
+  #sideview-container .box {
+    position: relative;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+  #sideview-container .box .close-button{
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 40px;
+    height: 40px;
+    pointer-events: all;
+    background: none;
+    border: none;
+    z-index: 99;
+  }
+  #sideview-container.opened{
+    background: rgba( 0, 0, 0, .3);
+  }
+  #sideview-container.opened .box{
+    display: flex;
+    opacity: 1;
+  }
+}
