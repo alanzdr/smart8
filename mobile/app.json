@@ -1,11 +1,9 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Smart 8",
+    "slug": "smart8",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +11,7 @@
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +20,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "br.com.smart8.app",
+      "versionCode": 2,
+      "permissions" : []
     }
   }
 }

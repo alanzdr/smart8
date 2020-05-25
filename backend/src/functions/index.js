@@ -40,6 +40,8 @@ exports.main = async (req, res) => {
       }
     })
 
+    await client.close()
+
     res.send(result)
   } catch (error) {
     res.status(201).send(error)

@@ -9,7 +9,7 @@ const Input = () => {
   const [ message, setMessage ] = useState('')
   const { sendMessage, loading } = useMessage()
 
-  const onSendMessage = (ev) => {
+  const onSendMessage = () => {
     if (!loading && message.length > 1) {
       sendMessage(message)
       setMessage('')
@@ -21,7 +21,8 @@ const Input = () => {
       <TextInput
         placeholder="Type text..."
         value={message}
-        onChangeText={(text) => setMessage(text)}
+        onChangeText={setMessage}
+        onSubmitEditing={onSendMessage}
       />
       <SendButton
         type='button'

@@ -14,6 +14,7 @@ export const TextInput = styled.TextInput`
   flex: 1;
   background: #7B1FA2;
   font-size: 16px;
+  font-family: Gotham;
   color: #fff;
   padding: 0 16px;
   border-radius: 24px;

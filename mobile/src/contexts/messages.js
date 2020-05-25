@@ -43,27 +43,37 @@ export const useMessage = () => {
   }
 
   const getResponse = async (text) => {
-    const result = await api.get('/', {
-      params: { text }
-    })
-
-    const botResult = result.data.displayName
-    const botMessage = getRamdomMessage(botResult)
-
-    const exempleMessage = {
-      key: GenerateRandomKey(),
-      status: 'visible',
-      target: 'bot',
-      text: botMessage
+    try {
+      const result = await api.get('/', {
+        params: { text }
+      })
+      
+      const botResult = result.data.displayName
+      const botMessage = getRamdomMessage(botResult)
+      
+      const exempleMessage = {
+        key: GenerateRandomKey(),
+        status: 'visible',
+        target: 'bot',
+        text: botMessage
+      }
+      return exempleMessage
+    } catch (error) {
+      console.log(error)
+      const exempleMessage = {
+        key: GenerateRandomKey(),
+        status: 'visible',
+        target: 'bot',
+        text: 'Internal server error, try again later'
+      }
+      return exempleMessage
     }
-
-    return exempleMessage
   }
 
   const onUpdateMessages = (messages, newMessage) => {
     const { length } = messages
     const values = messages.map((item, i) => {
-      if (length > 5 && i <= length - 6) {
+      if (length > 3 && i <= length - 4) {
         return { ...item, status: 'hidden' }
       }
       return item

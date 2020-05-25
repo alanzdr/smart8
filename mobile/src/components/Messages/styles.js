@@ -12,6 +12,7 @@ const Message = styled.View`
   border-radius: 16px;
   margin-top: 16px;
   padding: 16px;
+  font-family: Gotham;
   opacity: ${({visible}) => visible ? 1 : 0}
 `;
 
