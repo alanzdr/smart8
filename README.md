@@ -1,4 +1,7 @@
-## Smart 8
+<p align="center">
+  <img src="assets/logo.png" width="400" alt="Smart 8">
+</p>
+<h1 align="center">Smart 8</h1>
 
 Smart 8 foi desenvolvido como um sistema para usar aprendizado de máquina para responder perguntas de sim ou não, assim como as famosas bolas 8 magicas, porém de forma um pouco mais inteligente, evitando respostas diferentes, para perguntas iguais.
 O principal objetivo era adquirir conhecimentos básicos de `machine learning` e desenvolvimento Node.js, React e React Native, e como eles deveriam ser realmente básicos, me atentei apenas no que realmente fariam completar o projeto que deveriam ter as seguintes características:
