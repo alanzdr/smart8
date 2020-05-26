@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Smart 8</h1>
 
-### Why?
+### Why
 
 The main objective of the project was to acquire basic knowledge of Machine Learning, Node.js, React and React Native development, and as they should be really basic, I focused only on what they would actually complete.
 
@@ -29,7 +29,7 @@ the answers must be classified as a magic 8 ball, and for that purpose the graph
 
 - Finally, the front end created a random response according to the information coming from the server and will show the user
 
-### What was used?
+### What was used
 
 *As main tools, were used:*
 
@@ -39,7 +39,7 @@ the answers must be classified as a magic 8 ball, and for that purpose the graph
 - [Expo](https://expo.io/) to the mobile front end
 - [Axios](https://github.com/axios/axios) to HTTP requests
 
-### Where is the project?
+### Where is the project
 
 The project is currently in [smart8.app](https://smart8.app/) and on [Google Play Store](https://play.google.com/store/apps/details?id=br.com.smart8.app)
 
