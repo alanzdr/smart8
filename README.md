@@ -3,8 +3,28 @@
 </p>
 <h1 align="center">Smart 8</h1>
 
-Smart 8 foi desenvolvido como um sistema para usar aprendizado de máquina para responder perguntas de sim ou não, assim como as famosas bolas 8 magicas, porém de forma um pouco mais inteligente, evitando respostas diferentes, para perguntas iguais.
-O principal objetivo era adquirir conhecimentos básicos de `machine learning` e desenvolvimento Node.js, React e React Native, e como eles deveriam ser realmente básicos, me atentei apenas no que realmente fariam completar o projeto que deveriam ter as seguintes características:
+### Why?
 
-- Dois Front-end que podem receber e enviar mensagens para o servidor, um mobile e outro para a web.
-- Um sistema que recebesse as mensagens e classificaria como, `affirmative`, `negative`, ou `non-committal`, e logo após retornaria ao front-end com a resposta.
+The main objective of the project was to acquire basic knowledge of Machine Learning, Node.js, React and React Native development, and as they should be really basic, I focused only on what they would actually complete.
+
+### What is
+
+Smart 8 was developed as a system to use machine learning to answer yes or no questions, just like the famous magic 8 balls, but in a slightly more intelligent way, avoiding different answers, for equal questions.
+
+### What was needed
+
+*The project needed two main factors:*
+
+- Two front-end that can receive and send messages to the server, one mobile and one for the web.
+
+- A system that receives the messages and classifies them as, `affirmative`,` negative`, or `non-committal`, and soon after, returns to the front end with the answer.
+
+### What was used?
+
+*As main tools, were used:*
+
+- [Google Cloud Funcions](https://cloud.google.com/functions) for the backend
+- [Google Cloud Natural Language](https://cloud.google.com/natural-language) to process and sort responses
+- [React](https://pt-br.reactjs.org/) to the web front end
+- [Expo](https://expo.io/) to the mobile front end
+- [Axios](https://github.com/axios/axios) to HTTP requests
