@@ -14,7 +14,9 @@ Smart 8 was developed as a system to use machine learning to answer yes or no qu
 the answers must be classified as a magic 8 ball, and for that purpose the graph found on wikipedia was used:
 
 <p align="center">
-  <img src="assets/wikipedia-print.png" width="800" alt="Smart 8">
+  <a href="https://en.wikipedia.org/wiki/Magic_8-Ball">
+    <img src="assets/wikipedia-print.png" width="800" alt="Smart 8">
+  </a>
 </p>
 
 ### What was needed
@@ -42,7 +44,9 @@ the answers must be classified as a magic 8 ball, and for that purpose the graph
 The project is currently in [smart8.app](https://smart8.app/) and on [Google Play Store](https://play.google.com/store/apps/details?id=br.com.smart8.app)
 
 <p align="center">
-  <img src="assets/print-desktop.png" width="400" alt="Smart 8">
+  <a href='https://smart8.app/'>
+    <img src="assets/print-desktop.png" width="400" alt="Smart 8">
+  </a>
 </p>
 
 ### What was missing
