@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="400" alt="Smart 8">
+  <img src="assets/icon-300x300.png" width="300" alt="Smart 8">
 </p>
 <h1 align="center">Smart 8</h1>
 
