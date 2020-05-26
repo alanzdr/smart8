@@ -56,3 +56,7 @@ The project is currently in [smart8.app](https://smart8.app/) and on [Google Pla
 - [ ] Improve layout and add more animations, to make the user experience better
 - [ ] Add a longer message history
 - [ ] Use a better AI system, or use more questions and leave training for longer ( Need money )
+
+### And finally
+
+The whole project is training and may not be available forever, anyway if you read it it means it may have been worth it
