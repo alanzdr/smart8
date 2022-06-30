@@ -8,7 +8,7 @@ const { PredictionServiceClient } = require('@google-cloud/automl');
 
 const projectId = 'smart8'
 const location = 'us-central1'
-const modelId = 'TCN7757727435075878912'
+const modelId = 'TEN6666235645112877056'
 
 exports.main = async (req, res) => {
   res.set('Access-Control-Allow-Origin', '*');
@@ -42,8 +42,11 @@ exports.main = async (req, res) => {
 
     await client.close()
 
+    console.log(result)
+
     res.send(result)
   } catch (error) {
-    res.status(201).send(error)
+    console.error(error)
+    res.status(400).send(error)
   }
 };

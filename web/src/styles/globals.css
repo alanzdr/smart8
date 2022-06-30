@@ -1,0 +1,52 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  font-size: 100%;
+  min-height: 100vh;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  color: #fff;
+}
+
+@media (min-width: 1000px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    font-size: 65%;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    font-size: 67.5%;
+  }
+}

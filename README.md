@@ -41,7 +41,7 @@ the answers must be classified as a magic 8 ball, and for that purpose the graph
 
 ### Where is the project
 
-The project is currently in [smart8.app](https://smart8.app/) and on [Google Play Store](https://play.google.com/store/apps/details?id=br.com.smart8.app)
+The project is currently in [smart8.vercel.app](https://smart8.vercel.app/) and on [Google Play Store](https://play.google.com/store/apps/details?id=br.com.smart8.app)
 
 <p align="center">
   <a href='https://smart8.app/'>
